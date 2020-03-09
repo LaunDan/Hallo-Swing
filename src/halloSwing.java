@@ -1,8 +1,8 @@
 import javax.swing.*;
 
-public class Main extends JFrame{
+public class halloSwing extends JFrame{
     private JPanel Greeting;
-    public Main(String title) {
+    public halloSwing(String title) {
         super(title);
 
         this.setDefaultCloseOperation(JFrame.DO_NOTHING_ON_CLOSE);
@@ -11,7 +11,7 @@ public class Main extends JFrame{
     }
 
     public static void main(String[] args){
-        JFrame frame = new Main("Greeting");
+        JFrame frame = new halloSwing("Greeting");
         frame.setVisible(true);
     }
 }
